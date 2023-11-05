@@ -1,6 +1,7 @@
 # kaur_ekam_hw-1
 Interactive Product Page
 
+
 ## Built with
 
 - **HTML5**
@@ -9,11 +10,9 @@ Interactive Product Page
 - **SASS**
 
 ## To Do
-This website includes the following components:
-Navigation: To facilitate easy user navigation.
-Product Showcase: A section dedicated to showcasing the earbuds and their features, utilizing the 3D model created in cinema 4d
-Associated Copy: Descriptive and persuasive text that explains the features and benefits of the earbuds.
-Contact Form: A simple form where potential customers can send inquiries or feedback.
+This website includes the following components with responsive elements:
+To facilitate easy user navigation to show the airpods their features, utilizing the 3D model created in cinema 4d with some descriptive and persuasive text that explains benefits of the earbuds for the users.
+This website allows customers to contact us as well as can send inquiries or feedback related to airpods.
 
 ## Contributing
 
