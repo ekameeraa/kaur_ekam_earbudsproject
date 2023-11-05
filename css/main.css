@@ -1,0 +1,55 @@
+.container {
+  color: black;
+  background-color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  #main-logo {
+    order: -1;
+  }
+}
+
+/* Style buttons */
+.btn {
+  background-color: DodgerBlue; /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+#hero {
+  height: 335px;
+}
+
+#intro {
+  height: 300px;
+}
+
+#airpods {
+  height: 320px;
+}
+
+#button {
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+#more-information {
+  height: 280px;
+}
+
+#p {
+  font-size: 25px;
+  color: #000;
+}
+
+#footer {
+  height: 400px;
+}

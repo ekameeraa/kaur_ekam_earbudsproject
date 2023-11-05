@@ -1,11 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Product Page</title>
-</head>
-<body>
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Lato&family=Lora&family=Margarine&family=Patrick+Hand&family=Playpen+Sans:wght@500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+    <h1 class="hidden">Product Page</h1>
+    <header class="grid-con" id="main-header">
+        <div class="box col-start-2 col-end-4 
+        m-col-start-1 m-col-end-3"
+        id="main-logo">Logo</div>
+        <nav class="box col-span-full m-col-start-4 m-col-end-13">
+          <!-- Add icon library -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+          <button class="btn"><i class="fa fa-home"></i></button>
+          <button class="btn"><i class="fa fa-bars"></i></button>
+          <button class="btn"><i class="fa fa-trash"></i></button>
+          <button class="btn"><i class="fa fa-close"></i></button>
+        </nav>
+    </header>
+
+    <main>
+      <section class="grid-con" id="hero">
+        <h2 class="hidden">Hero</h2>
+        <div class="box col-span-full">Hero</div>
+      </section>
+ 
+      <section class="grid-con" id="intro">
+        <div class="box col-span-2 m-col-start-2 m-col-end-7">image</div>
+        <div class="box col-span-2 m-col-start-7 m-col-end-12">
+          <p>details</p>
+        </div>
+      </section>
+
+      <section class="grid-con" id="airpods">
+        <h2 class="hidden">airpods pro</h2>
+        <div id="1" class="box col-start-2 col-end-4 m-col-start-2 m-col-end-7 l-col-span-3">1</div>
+        <div id="2" class="box col-start-2 col-end-4 m-col-start-7 m-col-end-12 l-col-span-3">2</div>
+        <div id="3" class="box col-start-2 col-end-4 m-col-start-2 m-col-end-7 l-col-span-3">3</div>
+        <div id="4" class="box col-start-2 col-end-4 m-col-start-7 m-col-end-12 l-col-span-3">4</div>
+      </section>
+      
+      <section class="grid-con" id="button1">
+        <h2 class="hidden">button</h2>
+        <div class="box col-start-2 col-end-4 m-col-start-6 m-col-end-8 l-col-start-6 l-col-end-8">
+            <button id="button">Order Now</button>
+        </div>
+    </section>
+
+    <section class="grid-con" id="more-information">
+      <div class="box col-span-full m-span-full">
+        <p>here are the description of airpods pro!</p>
+      </div>
+    </section>
+    </main>
+
+    <footer class="grid-con" id="footer">
+      <div class="box col-span-full" id="bottom">footer</div>
     
-</body>
+    </footer>
+  
+    <script src="./js/main.js"></script>
+  </body>
 </html>
